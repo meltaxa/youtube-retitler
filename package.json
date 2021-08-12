@@ -1,10 +1,10 @@
 {
-  "name": "yt-title-updater",
+  "name": "youtube-retitler",
   "version": "1.0.0",
   "description": "",
-  "main": "yt-title-updater.js",
+  "main": "main.js",
   "scripts": {
-    "run": "node yt-title-updater.js"
+    "run": "node main.js"
   },
   "keywords": [],
   "author": "Dennis Mellican",

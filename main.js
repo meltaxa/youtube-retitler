@@ -153,7 +153,7 @@ const updateVideoTitle = (video, auth) => {
   const cacheFile = '.title_cache';
   var UPDATE = false;
 
-  video.snippet.title = video.snippet.title.replace(/%views%/g, views);
+  video.snippet.title = config.retitle.replace(/%views%/g, views);
   video.snippet.title = video.snippet.title.replace(/%likes%/g, likes);
 
   if (checkFileExistsSync(cacheFile)) {

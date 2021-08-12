@@ -1,8 +1,8 @@
-# Youtube Retitler
+# YouTube Retitler
 
-Inspired by [Tom Scott's video](https://www.youtube.com/watch?v=BxV14h0kFs0), this Youtube title 
+Inspired by [Tom Scott's video](https://www.youtube.com/watch?v=BxV14h0kFs0), this YouTube title 
 and thumbnail updater was created for my kid's 
-[Youtube video](https://www.youtube.com/watch?v=fdgq0pIi8Hc). As shown below in this
+[YouTube video](https://www.youtube.com/watch?v=fdgq0pIi8Hc). As shown below in this
 live screenshot demonstration that displays the latest view and like counts:
 
 <p align="center"> 
@@ -13,19 +13,19 @@ Smash that like button :laughing:
 # Pre-requisites
 
 * Node.js. Find the latest version here: https://nodejs.org/en/download/
-* Youtube API OAuth credentials. Follow steps 1 and 2 of the
+* YouTube API OAuth credentials. Follow steps 1 and 2 of the
 [Node.js Quickstart guide](https://developers.google.com/youtube/v3/quickstart/nodejs).
 
 # How to install
 
-1. Download the Youtube Retitler Git repository and change to the directory:
+1. Download the YouTube Retitler Git repository and change to the directory:
 
    ```
    git clone https://github.com/meltaxa/youtube-retitler.git
    cd youtube-retitler
    ```
 
-1. Copy your Youtube API credentials json file into the directory.
+1. Copy your YouTube API credentials json file into the directory.
 
 1. Copy the example config file and update it accordingly.
 
@@ -45,7 +45,7 @@ Smash that like button :laughing:
    node main.js
    ```
 
-1. As per [step 4 of the Youtube API guide](https://developers.google.com/youtube/v3/quickstart/nodejs), 
+1. As per [step 4 of the YouTube API guide](https://developers.google.com/youtube/v3/quickstart/nodejs), 
 on the initial run, you will be prompted to authorize access for the program. Follow the instructions.
 
 # Automation
@@ -53,7 +53,7 @@ on the initial run, you will be prompted to authorize access for the program. Fo
 Use a scheduler such as cron to check and make title updates automatically. For example,
 
 ```
-# Update a Youtube video title every minute.
+# Update a YouTube video title every minute.
 * * * * * cd /path/to/youtube-retitler; node main.js
 ```
 

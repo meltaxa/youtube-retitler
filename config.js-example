@@ -1,0 +1,30 @@
+const Jimp = require('jimp');
+
+var config = {};
+
+config.credentials_file = 'credentials.json';
+
+// To use custom fonts, set the config.font to a fnt file.
+// For example:
+// config.font_file = 'MinecraftTen-VGORe.ttf.fnt';
+// To create a fnt file see https://github.com/oliver-moran/jimp/blob/master/packages/plugin-print/README.md
+
+config.font_file = Jimp.FONT_SANS_32_BLACK;
+
+// The %views% and %likes% tokens will be replaced
+
+config.retitle = 'This video has been watched %views% times and has %likes% likes.';
+
+// Define the thumbnail template image and set the title, 
+// and the text overlay x & y coordinates.
+// The text will be centrally aligned.
+
+config.thumbnail_image = 'thumbnail.jpg';
+config.thumbnail_text = '%views% rides!';
+config.thumbnail_text_x = 20;
+config.thumbnail_text_y = 400;
+
+// Change to the Youtube video id where the title is to be changed.
+config.video_id = 'abcdefghijk';
+
+module.exports = config;
